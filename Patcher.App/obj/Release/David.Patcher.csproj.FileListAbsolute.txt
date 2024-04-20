@@ -1,0 +1,10 @@
+C:\Users\Alexa\Desktop\game-patcher-master\Source\David.Patcher\bin\Release\David.Patcher.exe.config
+C:\Users\Alexa\Desktop\game-patcher-master\Source\David.Patcher\bin\Release\David.Patcher.exe
+C:\Users\Alexa\Desktop\game-patcher-master\Source\David.Patcher\bin\Release\David.Patcher.pdb
+C:\Users\Alexa\Desktop\game-patcher-master\Source\David.Patcher\obj\Release\David.Patcher.csproj.AssemblyReference.cache
+C:\Users\Alexa\Desktop\game-patcher-master\Source\David.Patcher\obj\Release\David.Patcher.pForm.resources
+C:\Users\Alexa\Desktop\game-patcher-master\Source\David.Patcher\obj\Release\David.Patcher.Properties.Resources.resources
+C:\Users\Alexa\Desktop\game-patcher-master\Source\David.Patcher\obj\Release\David.Patcher.csproj.GenerateResource.cache
+C:\Users\Alexa\Desktop\game-patcher-master\Source\David.Patcher\obj\Release\David.Patcher.csproj.CoreCompileInputs.cache
+C:\Users\Alexa\Desktop\game-patcher-master\Source\David.Patcher\obj\Release\David.Patcher.exe
+C:\Users\Alexa\Desktop\game-patcher-master\Source\David.Patcher\obj\Release\David.Patcher.pdb

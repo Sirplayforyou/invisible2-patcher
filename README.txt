@@ -1,0 +1,12 @@
+Ich habe den halben Patcher umgeschrieben, überall waren Logikfehler drin, der Patcher funktioniert soweit, aber eine wichtige Info
+
+
+Wenn der Lister benutzt wird, muss aus der patchlist der pfad entfernt werden bsp.
+
+beim nutzen des listers wird der eintrag "C:/fdd/test 38232f2a 600" erstellt
+Das wird so nichts und muss nun "test 38232f2a 600" heißen
+
+Der original source hätte so nie patchen können
+
+Ganz wichtig: Es können keine leeren dateien darin gepatcht werden, dann gibt es eine ausnahme, weil er 0 durch 0 dividieren will, muss noch gefixt werden
+Im lister muss der patchlist generator insofern angepasst werden, sodass er nicht mehr den ganzen pfad mitnimmt

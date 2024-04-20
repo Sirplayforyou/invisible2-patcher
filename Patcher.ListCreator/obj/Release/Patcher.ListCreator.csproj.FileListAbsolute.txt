@@ -1,0 +1,10 @@
+C:\Users\calli\Desktop\game-patcherc-master\Source\Patcher.ListCreator\bin\Release\David.Lister.exe.config
+C:\Users\calli\Desktop\game-patcherc-master\Source\Patcher.ListCreator\bin\Release\David.Lister.exe
+C:\Users\calli\Desktop\game-patcherc-master\Source\Patcher.ListCreator\bin\Release\David.Lister.pdb
+C:\Users\calli\Desktop\game-patcherc-master\Source\Patcher.ListCreator\obj\Release\Patcher.ListCreator.csproj.AssemblyReference.cache
+C:\Users\calli\Desktop\game-patcherc-master\Source\Patcher.ListCreator\obj\Release\David.Lister.lForm.resources
+C:\Users\calli\Desktop\game-patcherc-master\Source\Patcher.ListCreator\obj\Release\David.Lister.Properties.Resources.resources
+C:\Users\calli\Desktop\game-patcherc-master\Source\Patcher.ListCreator\obj\Release\Patcher.ListCreator.csproj.GenerateResource.cache
+C:\Users\calli\Desktop\game-patcherc-master\Source\Patcher.ListCreator\obj\Release\Patcher.ListCreator.csproj.CoreCompileInputs.cache
+C:\Users\calli\Desktop\game-patcherc-master\Source\Patcher.ListCreator\obj\Release\David.Lister.exe
+C:\Users\calli\Desktop\game-patcherc-master\Source\Patcher.ListCreator\obj\Release\David.Lister.pdb
