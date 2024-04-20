@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Windows.Forms;
 
-namespace David.Lister
+namespace Patcher.ListCreator
 {
     static class Program
     {

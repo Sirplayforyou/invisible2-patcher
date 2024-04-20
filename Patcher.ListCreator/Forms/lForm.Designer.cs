@@ -1,4 +1,4 @@
-﻿namespace David.Lister
+﻿namespace Patcher.ListCreator
 {
     partial class lForm
     {
@@ -56,7 +56,7 @@
             this.browseButton.Name = "browseButton";
             this.browseButton.Size = new System.Drawing.Size(110, 23);
             this.browseButton.TabIndex = 1;
-            this.browseButton.Text = "Select a path";
+            this.browseButton.Text = "Pfad auswählen";
             this.browseButton.UseVisualStyleBackColor = true;
             this.browseButton.Click += new System.EventHandler(this.browseButton_Click);
             // 
@@ -74,7 +74,7 @@
             this.saveButton.Name = "saveButton";
             this.saveButton.Size = new System.Drawing.Size(110, 23);
             this.saveButton.TabIndex = 3;
-            this.saveButton.Text = "Save generated list";
+            this.saveButton.Text = "Liste Speichern";
             this.saveButton.UseVisualStyleBackColor = true;
             this.saveButton.Click += new System.EventHandler(this.saveButton_Click);
             // 
@@ -99,7 +99,7 @@
             this.removeButton.Name = "removeButton";
             this.removeButton.Size = new System.Drawing.Size(100, 23);
             this.removeButton.TabIndex = 5;
-            this.removeButton.Text = "Remove";
+            this.removeButton.Text = "Entfernen";
             this.removeButton.UseVisualStyleBackColor = true;
             this.removeButton.Click += new System.EventHandler(this.removeButton_Click);
             // 
@@ -111,6 +111,7 @@
             this.label1.Size = new System.Drawing.Size(192, 13);
             this.label1.TabIndex = 6;
             this.label1.Text = "Select a region to remove it from the list";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // lForm
             // 
@@ -128,7 +129,8 @@
             this.Name = "lForm";
             this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Lister";
+            this.Text = "Invisible2 Patcher";
+            this.Load += new System.EventHandler(this.lForm_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

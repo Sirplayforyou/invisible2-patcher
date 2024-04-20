@@ -8,3 +8,13 @@ C:\Users\calli\Desktop\game-patcherc-master\Source\Patcher.App\obj\Release\Patch
 C:\Users\calli\Desktop\game-patcherc-master\Source\Patcher.App\obj\Release\Patcher.App.csproj.CoreCompileInputs.cache
 C:\Users\calli\Desktop\game-patcherc-master\Source\Patcher.App\obj\Release\Patcher.App.exe
 C:\Users\calli\Desktop\game-patcherc-master\Source\Patcher.App\obj\Release\Patcher.App.pdb
+C:\Users\calli\Desktop\game-patcherc-master\Patcher.App\bin\Release\Patcher.App.exe.config
+C:\Users\calli\Desktop\game-patcherc-master\Patcher.App\bin\Release\Patcher.App.exe
+C:\Users\calli\Desktop\game-patcherc-master\Patcher.App\bin\Release\Patcher.App.pdb
+C:\Users\calli\Desktop\game-patcherc-master\Patcher.App\obj\Release\Patcher.App.csproj.AssemblyReference.cache
+C:\Users\calli\Desktop\game-patcherc-master\Patcher.App\obj\Release\Patcher.App.pForm.resources
+C:\Users\calli\Desktop\game-patcherc-master\Patcher.App\obj\Release\Patcher.App.Properties.Resources.resources
+C:\Users\calli\Desktop\game-patcherc-master\Patcher.App\obj\Release\Patcher.App.csproj.GenerateResource.cache
+C:\Users\calli\Desktop\game-patcherc-master\Patcher.App\obj\Release\Patcher.App.csproj.CoreCompileInputs.cache
+C:\Users\calli\Desktop\game-patcherc-master\Patcher.App\obj\Release\Patcher.App.exe
+C:\Users\calli\Desktop\game-patcherc-master\Patcher.App\obj\Release\Patcher.App.pdb

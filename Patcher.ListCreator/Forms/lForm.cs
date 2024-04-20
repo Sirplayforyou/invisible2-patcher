@@ -4,7 +4,7 @@ using System.ComponentModel;
 using System.IO;
 using System.Windows.Forms;
 
-namespace David.Lister
+namespace Patcher.ListCreator
 {
     public partial class lForm : Form
     {
@@ -78,12 +78,15 @@ namespace David.Lister
             return Files.Length;
         }
 
-        public string GetFileData(string File)
+        public string GetFileData(string file)
         {
-            FileInfo fileInfo = new FileInfo(File);
+            FileInfo fileInfo = new FileInfo(file);
+            string fileName = Path.GetFileName(file); // Nur den Dateinamen extrahieren
+            string hash = GetHash(file); // Den Hash-Wert der Datei abrufen
 
-            return File + " " + GetHash(File) + " " + fileInfo.Length;
+            return $"{fileName} {hash} {fileInfo.Length}"; // Formatieren und zurückgeben
         }
+
 
         private string GetHash(string Name)
         {
@@ -171,6 +174,16 @@ namespace David.Lister
                     streamWriter.Write(Result.Text);
                 }
             }
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lForm_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
