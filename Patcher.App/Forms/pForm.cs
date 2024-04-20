@@ -1,5 +1,6 @@
 ﻿using Patcher.App.Source_files;
 using System;
+using System.Drawing;
 using System.IO;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -12,6 +13,12 @@ namespace Patcher.App
         {
             InitializeComponent();
             Globals.pForm = this;
+
+            // Setze das Formular in den Borderless-Modus
+         //   this.FormBorderStyle = FormBorderStyle.None;
+
+            // Setze eine benutzerdefinierte Größe, wenn nötig
+       //     this.ClientSize = new Size(800, 600);
         }
 
         private async void pForm_Shown(object sender, EventArgs e)
@@ -25,6 +32,28 @@ namespace Patcher.App
                 await Networking.CheckNetwork();
             }
         }
+/*
+        private void pForm_MouseDown(object sender, MouseEventArgs e)
+        {
+            // Ermöglicht das Verschieben des Formulars
+            if (e.Button == MouseButtons.Left)
+            {
+                // Verwendet eine API-Funktion, um das Formular zu verschieben
+                NativeMethods.ReleaseCapture();
+                NativeMethods.SendMessage(this.Handle, 0xA1, 0x2, 0);
+            }
+        }
+
+        public static class NativeMethods
+        {
+            [System.Runtime.InteropServices.DllImport("user32.dll")]
+            public static extern bool ReleaseCapture();
+
+            [System.Runtime.InteropServices.DllImport("user32.dll")]
+            public static extern int SendMessage(IntPtr hWnd, int Msg, int wParam, int lParam);
+        }
+*/
+
         private void SettingsButton_Click(object sender, EventArgs e)
         {
             try
@@ -63,11 +92,6 @@ namespace Patcher.App
                 settingsButton.Enabled = true;
 
             }
-        }
-
-        private void toolStripStatusLabel1_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

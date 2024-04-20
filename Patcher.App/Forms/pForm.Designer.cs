@@ -52,8 +52,8 @@ namespace Patcher.App
             // completeProgressText
             // 
             this.completeProgressText.AutoSize = true;
-            this.completeProgressText.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.completeProgressText.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.completeProgressText.BackColor = System.Drawing.Color.White;
+            this.completeProgressText.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.completeProgressText.Location = new System.Drawing.Point(9, 44);
             this.completeProgressText.Name = "completeProgressText";
             this.completeProgressText.Size = new System.Drawing.Size(106, 13);
@@ -63,8 +63,8 @@ namespace Patcher.App
             // currentProgressText
             // 
             this.currentProgressText.AutoSize = true;
-            this.currentProgressText.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.currentProgressText.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.currentProgressText.BackColor = System.Drawing.Color.White;
+            this.currentProgressText.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.currentProgressText.Location = new System.Drawing.Point(9, 94);
             this.currentProgressText.Name = "currentProgressText";
             this.currentProgressText.Size = new System.Drawing.Size(157, 13);
@@ -73,7 +73,7 @@ namespace Patcher.App
             // 
             // Start
             // 
-            this.Start.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.Start.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.Start.Enabled = false;
             this.Start.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Start.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
@@ -101,7 +101,7 @@ namespace Patcher.App
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(460, 170);
             this.Controls.Add(this.settingsButton);
             this.Controls.Add(this.Start);
