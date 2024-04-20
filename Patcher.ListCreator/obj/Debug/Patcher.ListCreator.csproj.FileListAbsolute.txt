@@ -8,3 +8,8 @@ C:\Users\calli\Desktop\game-patcher-master\Source\David.Lister\obj\Debug\Patcher
 C:\Users\calli\Desktop\game-patcher-master\Source\David.Lister\obj\Debug\Patcher.ListCreator.csproj.CoreCompileInputs.cache
 C:\Users\calli\Desktop\game-patcher-master\Source\David.Lister\obj\Debug\David.Lister.exe
 C:\Users\calli\Desktop\game-patcher-master\Source\David.Lister\obj\Debug\David.Lister.pdb
+C:\Users\calli\Desktop\game-patcherc-master\Patcher.ListCreator\obj\Debug\Patcher.ListCreator.csproj.AssemblyReference.cache
+C:\Users\calli\Desktop\game-patcherc-master\Patcher.ListCreator\obj\Debug\Patcher.ListCreator.lForm.resources
+C:\Users\calli\Desktop\game-patcherc-master\Patcher.ListCreator\obj\Debug\Patcher.ListCreator.Properties.Resources.resources
+C:\Users\calli\Desktop\game-patcherc-master\Patcher.ListCreator\obj\Debug\Patcher.ListCreator.csproj.GenerateResource.cache
+C:\Users\calli\Desktop\game-patcherc-master\Patcher.ListCreator\obj\Debug\Patcher.ListCreator.csproj.CoreCompileInputs.cache

@@ -2,6 +2,7 @@
 using System;
 using System.ComponentModel;
 using System.IO;
+using System.Linq;
 using System.Windows.Forms;
 
 namespace Patcher.ListCreator
@@ -68,9 +69,22 @@ namespace Patcher.ListCreator
             browseButton.Enabled = true;
         }
 
-        public string[] GetFiles(object Path)
+        public string[] GetFiles(string path)
         {
-            return Directory.GetFiles(Path.ToString(), "*.*", System.IO.SearchOption.AllDirectories);
+            // Alle Dateien im aktuellen Verzeichnis sammeln
+            var files = Directory.GetFiles(path);
+
+            // Alle Unterverzeichnisse im aktuellen Verzeichnis sammeln
+            var subdirectories = Directory.GetDirectories(path);
+
+            // Rekursiv Dateien aus den Unterverzeichnissen sammeln
+            foreach (var subdirectory in subdirectories)
+            {
+                var subdirectoryFiles = GetFiles(subdirectory);
+                files = files.Concat(subdirectoryFiles).ToArray();
+            }
+
+            return files;
         }
 
         public int GetFilesCount(string[] Files)
