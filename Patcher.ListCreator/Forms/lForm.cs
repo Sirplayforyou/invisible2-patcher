@@ -31,6 +31,7 @@ namespace Patcher.ListCreator
             RemoveFromPath(filePath.SelectedText);
         }
 
+
         private void backgroundWorker_DoWork(object sender, DoWorkEventArgs e)
         {
             if (e.Argument is string path)

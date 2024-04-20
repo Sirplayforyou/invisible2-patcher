@@ -59,5 +59,14 @@ namespace Patcher.ListCreator.Properties {
                 resourceCulture = value;
             }
         }
+        
+        /// <summary>
+        ///   Sucht eine lokalisierte Zeichenfolge, die  ähnelt.
+        /// </summary>
+        internal static string j {
+            get {
+                return ResourceManager.GetString("j", resourceCulture);
+            }
+        }
     }
 }
