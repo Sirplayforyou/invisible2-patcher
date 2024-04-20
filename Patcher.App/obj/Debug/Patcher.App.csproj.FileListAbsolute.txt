@@ -28,13 +28,10 @@ C:\Users\calli\Desktop\game-patcherc-master\Source\Patcher.App\obj\Debug\Patcher
 C:\Users\calli\Desktop\game-patcherc-master\Source\Patcher.App\obj\Debug\Patcher.App.csproj.CoreCompileInputs.cache
 C:\Users\calli\Desktop\game-patcherc-master\Source\Patcher.App\obj\Debug\Patcher.App.exe
 C:\Users\calli\Desktop\game-patcherc-master\Source\Patcher.App\obj\Debug\Patcher.App.pdb
-C:\Users\calli\Desktop\game-patcherc-master\Patcher.App\bin\Debug\Patcher.App.exe.config
 C:\Users\calli\Desktop\game-patcherc-master\Patcher.App\bin\Debug\Patcher.App.exe
-C:\Users\calli\Desktop\game-patcherc-master\Patcher.App\bin\Debug\Patcher.App.pdb
 C:\Users\calli\Desktop\game-patcherc-master\Patcher.App\obj\Debug\Patcher.App.csproj.AssemblyReference.cache
 C:\Users\calli\Desktop\game-patcherc-master\Patcher.App\obj\Debug\Patcher.App.pForm.resources
 C:\Users\calli\Desktop\game-patcherc-master\Patcher.App\obj\Debug\Patcher.App.Properties.Resources.resources
 C:\Users\calli\Desktop\game-patcherc-master\Patcher.App\obj\Debug\Patcher.App.csproj.GenerateResource.cache
 C:\Users\calli\Desktop\game-patcherc-master\Patcher.App\obj\Debug\Patcher.App.csproj.CoreCompileInputs.cache
 C:\Users\calli\Desktop\game-patcherc-master\Patcher.App\obj\Debug\Patcher.App.exe
-C:\Users\calli\Desktop\game-patcherc-master\Patcher.App\obj\Debug\Patcher.App.pdb

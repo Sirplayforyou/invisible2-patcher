@@ -13,8 +13,7 @@ C:\Users\calli\Desktop\game-patcherc-master\Patcher.ListCreator\obj\Debug\Patche
 C:\Users\calli\Desktop\game-patcherc-master\Patcher.ListCreator\obj\Debug\Patcher.ListCreator.Properties.Resources.resources
 C:\Users\calli\Desktop\game-patcherc-master\Patcher.ListCreator\obj\Debug\Patcher.ListCreator.csproj.GenerateResource.cache
 C:\Users\calli\Desktop\game-patcherc-master\Patcher.ListCreator\obj\Debug\Patcher.ListCreator.csproj.CoreCompileInputs.cache
-C:\Users\calli\Desktop\game-patcherc-master\Patcher.ListCreator\bin\Debug\Patcher.ListCreator.exe.config
 C:\Users\calli\Desktop\game-patcherc-master\Patcher.ListCreator\bin\Debug\Patcher.ListCreator.exe
-C:\Users\calli\Desktop\game-patcherc-master\Patcher.ListCreator\bin\Debug\Patcher.ListCreator.pdb
 C:\Users\calli\Desktop\game-patcherc-master\Patcher.ListCreator\obj\Debug\Patcher.ListCreator.exe
+C:\Users\calli\Desktop\game-patcherc-master\Patcher.ListCreator\bin\Debug\Patcher.ListCreator.pdb
 C:\Users\calli\Desktop\game-patcherc-master\Patcher.ListCreator\obj\Debug\Patcher.ListCreator.pdb
