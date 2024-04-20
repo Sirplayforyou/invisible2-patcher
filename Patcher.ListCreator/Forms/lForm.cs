@@ -77,7 +77,7 @@ namespace Patcher.ListCreator
             removeButton.Enabled = true;
             browseButton.Enabled = true;
         }
-
+         
         public string GetFileData(string file, string relativePath)
         {
             FileInfo fileInfo = new FileInfo(file);
