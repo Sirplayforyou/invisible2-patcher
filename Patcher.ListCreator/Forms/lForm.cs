@@ -42,7 +42,7 @@ namespace Patcher.ListCreator
                     backgroundWorker.ReportProgress(i + 1, GetFileData(Files[i]));
                 }
             }
-        }
+        } 
 
 
         private void backgroundWorker_ProgressChanged(object sender, ProgressChangedEventArgs e)
