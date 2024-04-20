@@ -35,15 +35,20 @@ namespace Patcher.ListCreator
         {
             if (e.Argument is string path)
             {
-                Files = GetFiles(path);
+                // Get all files recursively, including subfolders
+                Files = Directory.GetFiles(path, "*", SearchOption.AllDirectories);
+
+                // The base path is the full path of the selected directory
+                string basePath = Path.GetFullPath(path);
 
                 for (int i = 0; i < Files.Length; i++)
                 {
-                    backgroundWorker.ReportProgress(i + 1, GetFileData(Files[i]));
+                    // Get the relative path and remove the base path
+                    string relativePath = GetRelativePath(basePath, Files[i]);
+                    backgroundWorker.ReportProgress(i + 1, GetFileData(Files[i], relativePath));
                 }
             }
-        } 
-
+        }
 
         private void backgroundWorker_ProgressChanged(object sender, ProgressChangedEventArgs e)
         {
@@ -73,23 +78,27 @@ namespace Patcher.ListCreator
             browseButton.Enabled = true;
         }
 
-        public string[] GetFiles(string path)
+        public string GetFileData(string file, string relativePath)
         {
-            // Alle Dateien im aktuellen Verzeichnis sammeln
-            var files = Directory.GetFiles(path);
+            FileInfo fileInfo = new FileInfo(file);
+            string fileName = Path.GetFileName(file);
+            string hash = GetHash(file);
 
-            // Alle Unterverzeichnisse im aktuellen Verzeichnis sammeln
-            var subdirectories = Directory.GetDirectories(path);
-
-            // Rekursiv Dateien aus den Unterverzeichnissen sammeln
-            foreach (var subdirectory in subdirectories)
-            {
-                var subdirectoryFiles = GetFiles(subdirectory);
-                files = files.Concat(subdirectoryFiles).ToArray();
-            }
-
-            return files;
+            // Use the relative path to include the correct folder structure
+            return $"{relativePath} {hash} {fileInfo.Length}";
         }
+
+        private string GetRelativePath(string baseDirectory, string filePath)
+        {
+            // Create URI for the base directory
+            Uri baseUri = new Uri(baseDirectory + Path.DirectorySeparatorChar);
+            Uri fileUri = new Uri(filePath);
+
+            // Create a relative URI and convert it to a usable file path format
+            Uri relativeUri = baseUri.MakeRelativeUri(fileUri);
+            return Uri.UnescapeDataString(relativeUri.ToString().Replace('/', Path.DirectorySeparatorChar));
+        }
+
 
         public int GetFilesCount(string[] Files)
         {
