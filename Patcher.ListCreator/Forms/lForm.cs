@@ -33,13 +33,17 @@ namespace Patcher.ListCreator
 
         private void backgroundWorker_DoWork(object sender, DoWorkEventArgs e)
         {
-            Files = GetFiles(e.Argument);
-
-            for (int i = 0; i < Files.Length; i++)
+            if (e.Argument is string path)
             {
-                backgroundWorker.ReportProgress(i + 1, GetFileData(Files[i]));
+                Files = GetFiles(path);
+
+                for (int i = 0; i < Files.Length; i++)
+                {
+                    backgroundWorker.ReportProgress(i + 1, GetFileData(Files[i]));
+                }
             }
         }
+
 
         private void backgroundWorker_ProgressChanged(object sender, ProgressChangedEventArgs e)
         {
