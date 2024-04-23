@@ -17,7 +17,7 @@ namespace Patcher.App.Source_files
 
                 using (WebClient webClient = new WebClient())
                 {
-                    using (Stream stream = await webClient.OpenReadTaskAsync(Globals.ServerURL + Globals.PatchlistName))
+                    using (Stream stream = await webClient.OpenReadTaskAsync(Globals.ServerURL2 + Globals.PatchlistName))
                     {
                         using (StreamReader streamReader = new StreamReader(stream))
                         {

@@ -4,7 +4,8 @@ namespace Patcher.App.Source_files
 {
     class Globals
     {
-        public static string ServerURL      = "http://demo.alpha02.eu/tests/patch/";
+        public static string ServerURL      = "http://demo.alpha02.eu/tests/patch/Metin2_client";
+        public static string ServerURL2     = "http://demo.alpha02.eu/tests/patch/patchlist/";
         public static string PatchlistName  = "patchlist.txt";
         public static string BinaryName     = "metin2client.exe";
 
